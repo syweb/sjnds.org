@@ -4,7 +4,7 @@ $(document).ready(function() {
   
   $('.wrapper').animate({
     opacity:1
-  }, 200, function(){
+  }, 800, function(){
     $('.content').animate({
       left:0
     }, 400);
