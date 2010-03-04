@@ -9,8 +9,7 @@ $(document).ready(function() {
       left:0
     }, 400);
   });
-  
-  
+
   // $('.slide').animate({
   //     opacity:1
   //   },3000, function(){

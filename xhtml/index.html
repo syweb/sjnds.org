@@ -5,16 +5,34 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>SJNDS</title>
-
+  <script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
   <!--[if IE]>
     <script src="js/DD_roundies-min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" charset="utf-8">
+      DD_roundies.addRule('.content', '10px');
+      DD_roundies.addRule('.subnav', '10px');
+      DD_roundies.addRule('.nav li a', '6px');
+      DD_roundies.addRule('.nav', '0px 0px 10px 10px');
+      DD_roundies.addRule('.subnav ul li a', '6px');
+    </script>
+    <script src="js/main-ie.js" type="text/javascript" charset="utf-8"></script>
   <![endif]-->
 
   <!--[if lte IE 6]>
     <script src="js/DD_belatedPNG.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      DD_belatedPNG.fix('img, div, input, .subnav li a');
+    </script>
     <link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <![endif]-->
+  
+  <!--[if !IE]><!-->
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <![endif]-->
+    
+    
+  
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="css/typography.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -44,7 +62,7 @@
         <ul>
           <li class="current"><a href="#">Home</a></li>
           <li><a href="#">Mission / Philosophy</a></li>
-          <li><a href="#">Schoolwide Learning Expectations</a></li>
+          <li class="tall2x" ><a href="#">Schoolwide Learning Expectations</a></li>
           <li><a href="#">Faculty &amp; Staff</a></li>
           <li><a href="#">Campus Tour</a></li>
         </ul>
@@ -63,7 +81,5 @@
       <p>Powered by <a href="http://www.collaborativemethods.com">Collaborative Methods</a></p>
     </div>
   </div>
-  <script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
