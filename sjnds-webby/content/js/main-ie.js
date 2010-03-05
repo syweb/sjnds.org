@@ -10,3 +10,5 @@ $(document).ready(function() {
     }, 400);
   });
 });
+
+// SCREW YOU MSIE & your crappy filters!! -- rahulmax@insightmethods.com

@@ -48,13 +48,13 @@ filter:  -  erb
     </div>
     <div class="nav">
       <ul>
-        <li class="current"><a href="#">Home</a></li>
-        <li><a href="#">Our Faith</a></li>
-        <li><a href="#">Academics</a></li>
-        <li><a href="#">Student Life</a></li>
-        <li><a href="#">Admissions</a></li>
-        <li><a href="#">Parents</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="our-faith.html">Our Faith</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="student-life.html">Student Life</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="parents.html">Parents</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
       </ul>
     </div>
     <div class="content">

@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: normal; font-family: Palatino, “Palatino Lino
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
 h2 { font-size: 2em; margin-bottom: 0.75em; }
 h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
-h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: .2em; }
 h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
 h6 { font-size: 1em; font-weight: bold; }
 
@@ -46,7 +46,7 @@ a:hover     { color: #4f70bb; text-decoration: underline}
 a           { color: #4f70bb; text-decoration: none; }
 a:active    { color: #94D2EA; text-decoration: underline; }
 
-blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+blockquote  { margin: 0 1.5em 1.5em 1.5em; color: #666; font-style: italic; }
 strong      { font-weight: bold; }
 em,dfn      { font-style: italic; }
 dfn         { font-weight: bold; }
@@ -83,7 +83,7 @@ table       { margin-bottom: 1.4em; width:100%; }
 th          { font-weight: bold; }
 thead th 		{ background: #c3d9ff; }
 th,td,caption { padding: 4px 10px 4px 5px; }
-tr.even td  { background: #e5ecf9; }
+tr.even td  { background: #F2E8AB url('../images/bg-noise.png') repeat 0 0;; }
 tfoot       { font-style: italic; }
 caption     { background: #eee; }
 

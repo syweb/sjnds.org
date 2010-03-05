@@ -4,6 +4,19 @@
 body{background:#ba9638 url('../images/bg.gif') repeat-x 0 177px; overflow-x:hidden;}
 .wrapper{background:url('../images/bg-noise.png') repeat 0 0; position:relative; overflow:hidden;}
 
+.table-container{background:#D1B667 url('../images/bg-noise.png') repeat 0 0; padding:6px; -moz-border-radius: 6px;
+-webkit-border-radius: 6px; -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+-moz-box-shadow: 3px 3px 3px  rgba(0,0,0,0.2);}
+table{border-collapse:collapse; font-size:85%; background:#F1E2B7 url('../images/noise-tile.gif') repeat;  border:1px solid #fff;}
+thead th{background:#C6A151 url('../images/bg-noise.png') repeat 0 0;font-size:120%; text-transform:uppercase; letter-spacing:2px;}
+
+table, td, th{vertical-align:bottom;}
+
+th, td{border:1px solid #C9BA7A; padding:6px 6px 2px 6px;}
+
+blockquote {background:#FAF6D0 url('../images/bg-noise.png') repeat 0 0; -moz-border-radius: 10px;
+-webkit-border-radius: 10px; border:1px solid #EDD077;}
+
 .masthead{background:#0e1241 url('../images/header.jpg') no-repeat 50% 0; height:178px; width:100%;}
 .header{width:800px; height:178px; margin:0 auto; position:relative;}
 
@@ -26,11 +39,14 @@ body{background:#ba9638 url('../images/bg.gif') repeat-x 0 177px; overflow-x:hid
 .content{width:730px; padding:20px 30px 20px 40px; background:#F1E2B7 url('../images/noise-tile.gif') repeat; 
 margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 -moz-box-shadow: 1px 1px 5px #333;}
+.content ul{font-size:85%;}
+.content ol{font-size:85%;}
 .content p{position:relative;}
 .goldleaf{width:79px; height:69px; position:absolute; bottom:-25px; right:-35px; 
   background:url('../images/embellishments/leaf.png');}
 
 .description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
+.description.wide{ width:670px;}
 .subnav{width:202px; float:left; background:#94c8e0 url('../images/box.png') repeat-x; border:1px solid #dde8ff; -moz-border-radius: 10px;
 -webkit-border-radius: 10px; position:relative; padding:20px 14px;}
 
