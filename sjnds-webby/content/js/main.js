@@ -1,5 +1,5 @@
 $(document).ready(function() {
-if($('.subnav li:first').hasClass('current') && !$('.nav li:last').hasClass('current')){
+if($('.subnav li:first').hasClass('current') && !$('.nav li:last').hasClass('current') &&$('.nav li:first').hasClass('current')){
   $('.wrapper').css('opacity', 0);
   $('.content').css('top', '1600px');
   $('.subnav').css('left', '-800px');
@@ -38,36 +38,36 @@ if($('.subnav li:first').hasClass('current') && !$('.nav li:last').hasClass('cur
 
   
 
-  // $('.slide').animate({
-  //     opacity:1
-  //   },3000, function(){
-  //     
-  //     $('.slide2').animate({
-  //       left: '10px'
-  //     }, 1000, function() {
-  // 
-  //       $('.slide3').animate({
-  //           left: '10px'
-  //         }, 1500, function() {
-  //           $('.sliding1').animate({
-  //              opacity: 1,
-  //              left: '300px'
-  //            }, 1500, function() {
-  //              $('.sliding2').animate({
-  //                 opacity: 1,
-  //                 left: '300px'
-  //               }, 1500, function() {
-  //                 $('.sliding3').animate({
-  //                    opacity: 1,
-  //                    left: '300px'
-  //                  }, 1500, function() {
-  // 
-  //                  });
-  //               });
-  //            });
-  //         });
-  //     });
-  //   });
+  $('.slide').animate({
+      opacity:1
+    },3000, function(){
+      
+      $('.slide2').animate({
+        left: '10px'
+      }, 1000, function() {
+  
+        $('.slide3').animate({
+            left: '10px'
+          }, 1500, function() {
+            $('.sliding1').animate({
+               opacity: 1,
+               left: '300px'
+             }, 1500, function() {
+               $('.sliding2').animate({
+                  opacity: 1,
+                  left: '300px'
+                }, 1500, function() {
+                  $('.sliding3').animate({
+                     opacity: 1,
+                     left: '300px'
+                   }, 1500, function() {
+  
+                   });
+                });
+             });
+          });
+      });
+    });
 
 });
 
