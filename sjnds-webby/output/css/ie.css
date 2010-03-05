@@ -3,6 +3,8 @@
 
 .subnav li{height:29px!important;}
 .subnav li.tall2x{height:49px!important;}
+.subnav .sy-login a{height:13px!important; line-height:14px;}
+
 /*.subnav li{height:30px;}*/
 
 .nav li a{margin:0 4px;}
