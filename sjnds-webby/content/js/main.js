@@ -1,5 +1,5 @@
 $(document).ready(function() {
-if($('.subnav li:first').hasClass('current')){
+if($('.subnav li:first').hasClass('current') && !$('.nav li:last').hasClass('current')){
   $('.wrapper').css('opacity', 0);
   $('.content').css('top', '1600px');
   $('.subnav').css('left', '-800px');

@@ -47,6 +47,7 @@ margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; positio
 
 .description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
 .description.wide{ width:670px;}
+.address p span{display:block; border-bottom:1px solid #ddc;}
 .subnav{width:202px; float:left; background:#94c8e0 url('../images/box.png') repeat-x; border:1px solid #dde8ff; -moz-border-radius: 10px;
 -webkit-border-radius: 10px; position:relative; padding:20px 14px;}
 
