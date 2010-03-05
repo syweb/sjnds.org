@@ -58,10 +58,12 @@ filter:  -  erb
       </ul>
     </div>
     <div class="content">
-      <%= @content %>
-      <div class="goldleaf"></div>
-      <div class="clear"></div>
-      <div class="hr"></div>
+      <div class="content-inner">
+        <%= @content %>
+        <div class="goldleaf"></div>
+        <div class="clear"></div>
+        <div class="hr"></div>
+      </div>
     </div>
     <div class="footer">
       <p style="margin-bottom:4px">&copy; St. John Notre Dame School. All Rights Reserved.</p>

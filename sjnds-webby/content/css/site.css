@@ -39,6 +39,9 @@ blockquote {background:#FAF6D0 url('../images/bg-noise.png') repeat 0 0; -moz-bo
 .content{width:730px; padding:20px 30px 20px 40px; background:#F1E2B7 url('../images/noise-tile.gif') repeat; 
 margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 -moz-box-shadow: 1px 1px 5px #333;}
+
+.header-image{position:absolute; top:-236px; right:0px;}
+
 .content ul{font-size:85%;}
 .content ol{font-size:85%;}
 .content p{position:relative;}
