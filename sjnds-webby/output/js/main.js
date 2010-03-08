@@ -69,12 +69,19 @@ $(document).ready(function() {
             top:130,
             opacity:1
           },500, function(){
-            window.location = '/';
+            window.location = './index.html';
           });
         });
       });
     });
   });
+  //end
+  
+  // Campus Tour Animations
+  $('.campus-tour').cycle({
+	  fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+  });
+  
 });
 
 

@@ -5,6 +5,10 @@
    
 -------------------------------------------------------------- */
 
+/* ========================================= */
+/* = Edited By rahulmax@insightmethods.com = */
+/* ========================================= */
+
 /* Default font settings. 
    The font-size percentage is of 16px. (0.75 * 16px = 12px) */
 html { font-size:105.01%; }
@@ -23,6 +27,7 @@ h1,h2,h3,h4,h5,h6 { font-weight: normal; font-family: Palatino, “Palatino Lino
 
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
 h2 { font-size: 2em; margin-bottom: 0.75em; }
+h2 {color:#8e7511; font-size:1.6em; text-shadow:1px 1px 0px #fff; background:url('../images/heading-border.png') repeat-x 0 100%;}
 h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
 h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: .2em; color:#4D3D1B; border-bottom:1px solid #E9E8E5; }
 h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }

@@ -14,4 +14,7 @@
 .subnav li a, 
 .subnav li a:hover, 
 .subnav li a:active, 
-.subnav li.current a{color:#022c3d; text-decoration:none; margin:0!important; border:0!important;}
+.subnav li
+.current a{color:#022c3d; text-decoration:none; margin:0!important; border:0!important;}
+
+.sliding{ left:-550px; opacity:auto!important;}

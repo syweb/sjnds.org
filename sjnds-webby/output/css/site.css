@@ -2,31 +2,42 @@
 @font-face {font-family: "Traj";	src: url('../fontface/traj.otf');}
 
 /* =========================================================== */
-/* = SJNDS' Awesome stylesheet - rahulmax@insightmethods.com = */
+/* = SJNDS' awesome stylesheet - rahulmax@insightmethods.com = */
 /* =========================================================== */
 
+/* ========== */
+/* = Layout = */
+/* ========== */
 body{background:#ba9638 url('../images/bg.gif') repeat-x 0 177px; overflow-x:hidden;}
 .wrapper{background:url('../images/bg-noise.png') repeat 0 0; position:relative; overflow:hidden;}
 
-.table-container{background:#D1B667 url('../images/bg-noise.png') repeat 0 0; padding:6px; -moz-border-radius: 6px;
--webkit-border-radius: 6px; -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
--moz-box-shadow: 3px 3px 3px  rgba(0,0,0,0.2);}
-table{border-collapse:collapse; font-size:85%; background:#F1E2B7 url('../images/noise-tile.gif') repeat;  border:1px solid #fff;}
-thead th{background:#C6A151 url('../images/bg-noise.png') repeat 0 0;font-size:120%; text-transform:uppercase; letter-spacing:2px;}
-
-table, td, th{vertical-align:bottom;}
-
-th, td{border:1px solid #C9BA7A; padding:6px 6px 2px 6px;}
-
-blockquote {background:#FAF6D0 url('../images/bg-noise.png') repeat 0 0; -moz-border-radius: 10px; padding:10px;
--webkit-border-radius: 10px; border:1px solid #EDD077;}
-
+/*Header*/
 .masthead{background:#0e1241 url('../images/header.jpg') no-repeat 50% 0; height:178px; width:100%;}
 .header{width:800px; height:178px; margin:0 auto; position:relative;}
-
+.header-image{position:absolute; top:-236px; right:0px;}
 .masthead img{position:absolute;}
 .logo{top:30px; left:0px;}
 .schoolname{top:80px; left:200px;}
+
+/*Content*/
+.content{width:730px; padding:20px 30px 20px 40px; background:#F1E2B7 url('../images/noise-tile.gif') repeat; 
+margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+-moz-box-shadow: 1px 1px 5px #333;}
+.content ul{font-size:85%;}
+.content ol{font-size:85%;}
+.content p{position:relative;}
+
+.description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
+.description.wide{ width:670px;}
+.address p span{display:block; border-bottom:1px solid #ddc;}
+
+/*Embellishments*/
+.goldleaf{width:79px; height:69px; position:absolute; bottom:-25px; right:-35px; 
+  background:url('../images/embellishments/leaf.png');}
+.box-curl{position:absolute; width:30px; height:36px; 
+  background:transparent url('../images/embellishments/box-curl.png') no-repeat 0 0; bottom:-15px; left:-14px;}
+
+.hr{background:url('../images/embellishments/hr.png') 50% 0; height:21px; clear:both; margin:40px 0 0 0;}
 
 /* ============== */
 /* = Navigation = */
@@ -42,27 +53,9 @@ blockquote {background:#FAF6D0 url('../images/bg-noise.png') repeat 0 0; -moz-bo
 .nav li a:hover,.nav li.current a{background:#3d72a0;border:1px solid #6892b6;margin:-1px 3px;}
 .nav li a:active{background:#4584BA;border:1px solid #76A8D3;margin:-1px 3px;outline:0;}
 
-
-.content{width:730px; padding:20px 30px 20px 40px; background:#F1E2B7 url('../images/noise-tile.gif') repeat; 
-margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
--moz-box-shadow: 1px 1px 5px #333;}
-
-.header-image{position:absolute; top:-236px; right:0px;}
-
-.content ul{font-size:85%;}
-.content ol{font-size:85%;}
-.content p{position:relative;}
-.goldleaf{width:79px; height:69px; position:absolute; bottom:-25px; right:-35px; 
-  background:url('../images/embellishments/leaf.png');}
-
-.description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
-.description.wide{ width:670px;}
-.address p span{display:block; border-bottom:1px solid #ddc;}
-
 /* ================== */
 /* = Sub Navigation = */
 /* ================== */
-
 .subnav{width:202px;float:left;background:#94c8e0 url('../images/box.png') repeat-x;border:1px solid #dde8ff;-moz-border-radius:10px;-webkit-border-radius:10px;position:relative;padding:20px 14px;}
 .subnav li{list-style:none inside;margin:0 0 4px 0;position:relative;}
 .subnav a{display:block;height:;text-decoration:none;text-shadow:1px 1px 2px #fff;color:#022c3d;font-size:14px;padding:4px 2px 4px 20px;background:url('../images/embellishments/bullet.png') no-repeat 5px 5px;}
@@ -71,18 +64,28 @@ margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; positio
 .subnav li a:active,
 .subnav li a:focus{background-color:#9FD1F5;border:1px solid #417AA5;margin:-1px;outline:0;-moz-border-radius:4px;-webkit-border-radius:4px;}
 
-
-.box-curl{position:absolute; width:30px; height:36px; 
-  background:transparent url('../images/embellishments/box-curl.png') no-repeat 0 0; bottom:-15px; left:-14px;}
-.hr{background:url('../images/embellishments/hr.png') 50% 0; height:21px; clear:both; margin:40px 0 0 0;}
-
 /* ========== */
 /* = Footer = */
 /* ========== */
 .footer{background: #131649 url('../images/footer.jpg') no-repeat 50% 0; height:72px; padding:38px 0 0 0; margin-top:-35px;}
 .footer p{text-align:center; color:#fff; font-size:12px;}
 
-h2{color:#8e7511; font-size:1.6em; text-shadow:1px 1px 0px #fff; background:url('../images/heading-border.png') repeat-x 0 100%;}
+/* ========== */
+/* = Tables = */
+/* ========== */
+.table-container{background:#D1B667 url('../images/bg-noise.png') repeat 0 0; padding:6px; -moz-border-radius: 6px;
+-webkit-border-radius: 6px; -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+-moz-box-shadow: 3px 3px 3px  rgba(0,0,0,0.2);}
+table{border-collapse:collapse; font-size:85%; background:#F1E2B7 url('../images/noise-tile.gif') repeat;  border:1px solid #fff;}
+thead th{background:#C6A151 url('../images/bg-noise.png') repeat 0 0;font-size:120%; text-transform:uppercase; letter-spacing:2px;}
+table, td, th{vertical-align:bottom;}
+th, td{border:1px solid #C9BA7A; padding:6px 6px 2px 6px;}
+
+/* ====== */
+/* = bq = */
+/* ====== */
+blockquote {background:#FAF6D0 url('../images/bg-noise.png') repeat 0 0; -moz-border-radius: 10px; padding:10px;
+-webkit-border-radius: 10px; border:1px solid #EDD077;}
 
 /* ==================== */
 /* = Schoolyard Login = */
@@ -98,20 +101,7 @@ h2{color:#8e7511; font-size:1.6em; text-shadow:1px 1px 0px #fff; background:url(
 .slideshow{width:730px; height:190px; margin:0 auto; position:relative;}
 .slide{position:absolute; top:0; left:0;}
 .skip{position:absolute;right:143px;top:632px;text-decoration:underline;}
-.sliding{opacity: 0; filter:alpha(opacity=0); left:550px;
+.sliding{opacity: 0; left:550px;
    position:absolute; text-align:left; width:500px; 
    font-family:"century gothic", "Trebuchet MS", Arial, sans-serif; 
    font-weight:normal; font-size:26px; color:#8e7511; }
-
-
-
-
-
-
-
-
-
-
-
-
-
