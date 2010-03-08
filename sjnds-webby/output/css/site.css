@@ -95,7 +95,23 @@ h2{color:#8e7511; font-size:1.6em; text-shadow:1px 1px 0px #fff; background:url(
 /* ========== */
 /* = Splash = */
 /* ========== */
-.slideshow{width:800px;position:absolute;top:400px;left:127px;}
-.slide{opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+.slideshow{width:730px; height:190px; margin:0 auto; position:relative;}
+.slide{position:absolute; top:0; left:0;}
 .skip{position:absolute;right:143px;top:632px;text-decoration:underline;}
-.sliding{opacity: 0; filter:alpha(opacity=0); left:550px; position:absolute; text-align:left; width:500px; font-family:"century gothic", "Trebuchet MS", Arial, sans-serif; font-weight:normal; font-size:26px; color:#8e7511; }
+.sliding{opacity: 0; filter:alpha(opacity=0); left:550px;
+   position:absolute; text-align:left; width:500px; 
+   font-family:"century gothic", "Trebuchet MS", Arial, sans-serif; 
+   font-weight:normal; font-size:26px; color:#8e7511; }
+
+
+
+
+
+
+
+
+
+
+
+
+
