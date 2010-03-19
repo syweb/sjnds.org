@@ -20,7 +20,7 @@ body{background:#ba9638 url('../images/bg.gif') repeat-x 0 177px; overflow-x:hid
 .schoolname{top:80px; left:200px;}
 
 /*Content*/
-.content{width:730px; padding:20px 30px 20px 40px; background:#F1E2B7 url('../images/noise-tile.gif') repeat; 
+.content{width:730px; padding:20px 30px 20px 40px; background:#F6F6F1 url('../images/noise-tile.gif') repeat; 
 margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 -moz-box-shadow: 1px 1px 5px #333;}
 .content ul{font-size:85%;}
@@ -58,13 +58,14 @@ a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.g
 /* ================== */
 /* = Sub Navigation = */
 /* ================== */
-.subnav{width:202px;float:left;background:#94c8e0 url('../images/box.png') repeat-x;border:1px solid #dde8ff;-moz-border-radius:10px;-webkit-border-radius:10px;position:relative;padding:20px 14px;}
+.subnav{width:202px;float:left;background:#3d72a0;border:1px solid #dde8ff;-moz-border-radius:10px;-webkit-border-radius:10px;position:relative;padding:20px 14px;}
 .subnav li{list-style:none inside;margin:0 0 4px 0;position:relative;}
-.subnav a{display:block;height:;text-decoration:none;text-shadow:1px 1px 2px #fff;color:#022c3d;font-size:14px;padding:4px 2px 4px 20px;background:url('../images/embellishments/bullet.png') no-repeat 5px 5px;}
+.subnav a{display:block;height:;text-decoration:none;text-shadow:1px 1px 2px #666;color:#efefef;font-size:17px;padding:4px 2px 4px 20px;background:url('../images/embellishments/bullet.png') no-repeat 5px 5px; border:1px solid transparent;}
+.subnav li.current a{color:#000;text-shadow:1px 1px 0px #fff;}
 .subnav li.current a,
-.subnav li a:hover{-moz-border-radius:4px;-webkit-border-radius:4px;background-color:#9ac9ea;border:1px solid #4c8ebe;margin:-1px;}
+.subnav li a:hover{-moz-border-radius:4px;-webkit-border-radius:4px;background-color:#9ac9ea;border:1px solid #4c8ebe; color:#113f78;text-shadow:1px 1px 2px #fff;}
 .subnav li a:active,
-.subnav li a:focus{background-color:#9FD1F5;border:1px solid #417AA5;margin:-1px;outline:0;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.subnav li a:focus{background-color:#9FD1F5;border:1px solid #417AA5;outline:0;-moz-border-radius:4px;-webkit-border-radius:4px;}
 
 /* ========== */
 /* = Footer = */
