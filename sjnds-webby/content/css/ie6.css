@@ -3,4 +3,4 @@
 .nav li a:active{background:#4584BA;border-width:0!important;margin:0px 4px;outline:0!important;  color:#fff; text-decoration:none;}
 
 
-.subnav li a, .subnav li a:hover, .subnav li a:active, .subnav li.current a{color:#022c3d; text-decoration:none; margin:0!important; border:0!important;}
+.subnav li a, .subnav li a:hover, .subnav li a:active, .subnav li.current a{color:#fff; text-decoration:none; margin:0!important; border:0!important;}

@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('.slide2').css({ 'left' : '245px'});
   $('.slide3').css({'left': '490px'});
   $('.slide3').css({'left': '490px'});
-  $('.sliding').css({'left': '1000px'});
+  $('.sliding').css({'left': '2000px'});
 
   $('.slide').animate({
     width: 235,
@@ -44,7 +44,7 @@ $(document).ready(function(){
             left:265,
             top:130
           },500, function(){
-            $(window.location = '/').delay(1500);
+            $(window.location = 'index.html').delay(1500);
           });
         });
       });

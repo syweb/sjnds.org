@@ -72,6 +72,7 @@ a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.g
 /* ========== */
 .footer{background: #131649 url('../images/footer.jpg') no-repeat 50% 0; height:72px; padding:38px 0 0 0; margin-top:-35px;}
 .footer p{text-align:center; color:#fff; font-size:12px;}
+.footer a{color:#fff; text-decoration:underline;}
 
 /* ========== */
 /* = Tables = */
