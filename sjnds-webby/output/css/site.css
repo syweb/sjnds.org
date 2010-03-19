@@ -2,7 +2,7 @@
 @font-face {font-family: "Traj";	src: url('../fontface/traj.otf');}
 
 /* =========================================================== */
-/* = SJNDS' awesome stylesheet - rahulmax@insightmethods.com = */
+/* = SJNDS' awesome stylesheet = */
 /* =========================================================== */
 
 /* ========== */
@@ -30,6 +30,8 @@ margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; positio
 .description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
 .description.wide{ width:670px;}
 .address p span{display:block; border-bottom:1px solid #ddc;}
+a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.gif") left top no-repeat;}
+.campus-tour img {border:5px solid #f7f1e3;}
 
 /*Embellishments*/
 .goldleaf{width:79px; height:69px; position:absolute; bottom:-25px; right:-35px; 
