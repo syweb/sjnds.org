@@ -43,6 +43,7 @@ $(document).ready(function() {
     height:175,
     opacity:1
   }, 2500);
+$('.slide').animate({opacity: 1.0}, 3000),
 
   $('.slide2').animate({
     top:0,
@@ -54,23 +55,28 @@ $(document).ready(function() {
       left:0,
       opacity:0
     },600, function(){
+	 
       $('.sliding1').animate({
         left:265,
         top:10,
         opacity:1
-      }, 500, function(){
+      }, 2000, function(){
         $('.sliding2').animate({
           left:265,
           top:70,
           opacity:1
-        }, 500, function(){
+        }, 2000, function(){
           $('.sliding3').animate({
             left:265,
             top:130,
             opacity:1
-          },500, function(){
+          },2000, function(){
+	          $('.sliding3').animate({
+	            opacity:1
+	          },5000, function(){
             window.location = './index.html';
-          });
+            });
+		  });
         });
       });
     });

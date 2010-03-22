@@ -29,6 +29,8 @@ margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; positio
 
 .description{float:left; display:inline; width: 438px; padding: 0 20px 0 40px;}
 .description.wide{ width:670px;}
+.description p, .description li{font-size:15px;}
+
 .address p span{display:block; border-bottom:1px solid #ddc;}
 a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.gif") left top no-repeat;}
 .campus-tour img {border:5px solid #f7f1e3;}
@@ -60,7 +62,7 @@ a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.g
 /* ================== */
 .subnav{width:202px;float:left;background:#3d72a0;border:1px solid #dde8ff;-moz-border-radius:10px;-webkit-border-radius:10px;position:relative;padding:20px 14px;}
 .subnav li{list-style:none inside;margin:0 0 4px 0;position:relative;}
-.subnav a{display:block;height:;text-decoration:none;text-shadow:1px 1px 2px #666;color:#efefef;font-size:17px;padding:4px 2px 4px 20px;background:url('../images/embellishments/bullet.png') no-repeat 5px 5px; border:1px solid transparent;}
+.subnav a{display:block;height:;text-decoration:none;text-shadow:1px 1px 2px #666;color:#efefef;font-size:15px;padding:4px 2px 4px 20px;background:url('../images/embellishments/bullet.png') no-repeat 5px 5px; border:1px solid transparent;}
 .subnav li.current a{color:#000;text-shadow:1px 1px 0px #fff;}
 .subnav li.current a,
 .subnav li a:hover{-moz-border-radius:4px;-webkit-border-radius:4px;background-color:#9ac9ea;border:1px solid #4c8ebe; color:#113f78;text-shadow:1px 1px 2px #fff;}
