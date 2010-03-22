@@ -74,7 +74,7 @@ $('.slide').animate({opacity: 1.0}, 3000),
 	          $('.sliding3').animate({
 	            opacity:1
 	          },5000, function(){
-            window.location = './index.html';
+            window.location = './home.html';
             });
 		  });
         });

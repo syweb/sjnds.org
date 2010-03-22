@@ -48,7 +48,7 @@ filter:  -  erb
     </div>
     <div class="nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html">Home</a></li>
         <li><a href="our-faith.html">Our Faith</a></li>
         <li><a href="academics.html">Academics</a></li>
         <li class="current"><a href="student-life.html">Student Life</a></li>

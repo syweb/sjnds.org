@@ -48,7 +48,7 @@ $(document).ready(function(){
 		          $('.sliding3').animate({
 		            opacity:1
 		          },5000, function(){
-            $(window.location = 'index.html').delay(1500);
+            $(window.location = 'home.html').delay(1500);
             });
 		  });
         });
