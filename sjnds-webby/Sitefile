@@ -4,4 +4,10 @@ task :default => :build
 desc 'deploy the site to the webserver'
 task :deploy => [:build, 'deploy:rsync']
 
+
+SITE.user = "sites"
+SITE.host = "insightmethods.com"
+SITE.remote_dir = "sjnds.org"
+
+
 # EOF
