@@ -46,7 +46,7 @@ $(document).ready(function(){
             top:130
           },2000, function(){
 		          $('.sliding3').animate({
-		            opacity:1
+		            left:265
 		          },5000, function(){
             $(window.location = 'home.html').delay(1500);
             });
