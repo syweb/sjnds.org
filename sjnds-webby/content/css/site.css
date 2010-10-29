@@ -20,14 +20,14 @@ body{background:#ba9638 url('../images/bg.gif') repeat-x 0 177px; overflow-x:hid
 .schoolname{top:80px; left:200px;}
 
 /*Content*/
-.content{width:830px; padding:20px 30px 20px 40px; background:#F6F6F1 url('../images/noise-tile.gif') repeat; 
+.content{width:860px; padding:20px 30px 20px 40px; background:#F6F6F1 url('../images/noise-tile.gif') repeat; 
 margin:10px auto; -moz-border-radius: 10px; -webkit-border-radius: 10px; position:relative; -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 -moz-box-shadow: 1px 1px 5px #333;}
 .content ul{font-size:85%;}
 .content ol{font-size:85%;}
 .content p{position:relative;}
 
-.description{float:left; display:inline; width: 530px; padding: 0 20px 0 40px;}
+.description{float:left; display:inline; width: 560px; padding: 0 20px 0 40px;}
 .description.wide{ width:670px;}
 .description p, .description li{font-size:15px;}
 
@@ -46,7 +46,7 @@ a.pdf-icon {padding:0 0 0 23px; background:transparent url("../images/icon-pdf.g
 /* ============== */
 /* = Navigation = */
 /* ============== */
-.nav{background:#0a3974 url('../images/bg-noise.png') repeat 0 0; height:33px; width:900px; margin:0 auto; 
+.nav{background:#0a3974 url('../images/bg-noise.png') repeat 0 0; height:33px; width:930px; margin:0 auto; 
 -moz-border-radius-bottomleft: 10px;-webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomright: 10px;
 -webkit-border-bottom-right-radius: 10px;
  padding:8px 0 0 0; border:1px solid #fff8dd; border-top-width:0;}
