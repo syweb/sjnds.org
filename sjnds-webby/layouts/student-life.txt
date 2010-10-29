@@ -55,6 +55,7 @@ filter:  -  erb
         <li class="current"><a href="student-life.html">Student Life</a></li>
         <li><a href="admissions.html">Admissions</a></li>
         <li><a href="parents.html">Parents</a></li>
+        <li><a href="special_events.html">Special Events</a></li>        
         <li><a href="contact-us.html">Contact Us</a></li>
       </ul>
     </div>

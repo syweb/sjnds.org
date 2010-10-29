@@ -19,7 +19,6 @@ filter:  -  erb
       DD_roundies.addRule('.nav li a', '6px');
       DD_roundies.addRule('.nav', '0px 0px 10px 10px');
       DD_roundies.addRule('.subnav ul li a', '6px');
-      DD_roundies.addRule('.table-container', '6px');
     </script>
     <script src="js/main-ie.js" type="text/javascript" charset="utf-8"></script>
   <![endif]-->
@@ -27,7 +26,7 @@ filter:  -  erb
   <!--[if lte IE 6]>
     <script src="js/DD_belatedPNG.js" type="text/javascript" charset="utf-8"></script>
     <script>
-      DD_belatedPNG.fix('img, div, input, .subnav li a, span.sy-login a');
+      DD_belatedPNG.fix('img, div, input, .subnav li a');
     </script>
     <link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <![endif]-->
@@ -50,13 +49,13 @@ filter:  -  erb
     </div>
     <div class="nav">
       <ul>
-        <li class="current"><a href="home.html">Home</a></li>
+        <li><a href="home.html">Home</a></li>
         <li><a href="our-faith.html">Our Faith</a></li>
         <li><a href="academics.html">Academics</a></li>
         <li><a href="student-life.html">Student Life</a></li>
         <li><a href="admissions.html">Admissions</a></li>
         <li><a href="parents.html">Parents</a></li>
-        <li><a href="special_events.html">Special Events</a></li>        
+        <li class="current"><a href="special_events.html">Special Events</a></li>        
         <li><a href="contact-us.html">Contact Us</a></li>
       </ul>
     </div>
